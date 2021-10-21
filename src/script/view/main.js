@@ -1,9 +1,7 @@
 import '../component/cocktail-list.js';
-import '../component/nav-bar.js';
 import DataSource from '../data/data-source.js';
 
 const main = () => {
-  const searchElement = document.querySelector("nav-bar");
   const cocktailListElement = document.querySelector("cocktail-list");
 
   // const onButtonSearchClicked = async () => {
