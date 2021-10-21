@@ -1,0 +1,113 @@
+@import "cover.css";
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* main {
+  background-color: #EEEEEE;
+} */
+
+/* ----- NAVBAR ----- */
+
+.nav-bar {
+  /* position: fixed; */
+  /* z-index: 1; */
+  display: block;
+  width: 100%;
+  background-color: #272121;
+  opacity: 0.8;
+  padding: 1rem;
+}
+
+.nav-bar h3 {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.form {
+  margin: 4rem;
+}
+
+.form-input {
+  position: absolute;
+  margin-top: 10px;
+  width: 70%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #272121;
+  color: #EEEEEE;
+  opacity: 0.9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* ----- VARIATIONS SECTION ----- */
+
+.variations > h2 {
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-columns {
+  padding: 20px 40px 20px 40px;
+}
+
+.card-title {
+  font-family: cursive;
+  color: brown;
+}
+
+/* ----- FOOTER ----- */
+
+.footer {
+  background-color: #443737;
+  opacity: 0.8;
+  padding: 10px;
+  margin-top: auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cred {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0px;
+}
+
+/* .ref {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EEEEEE;
+} */
+
+/* .link {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link > a {
+  color: #EEEEEE;
+}
+
+.link a:hover {
+  text-decoration: none;
+  color: #FF4D00;
+} */
+
+span {
+  padding: 0px 5px 0px 5px;
+}

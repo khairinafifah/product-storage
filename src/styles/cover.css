@@ -1,0 +1,35 @@
+.img1 {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  margin: 0px;
+}
+
+.credit {
+  position: relative;
+  bottom: 30px;
+  left: 16px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.credit2 {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.greet {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
